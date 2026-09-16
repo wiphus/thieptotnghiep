@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>Thiệp Mời Tốt Nghiệp</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Montserrat:wght@500;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<main class="mobile-wrapper">
+
+    <!-- ==============================================
+         1. MÀN HÌNH PHONG BÌ
+         ============================================== -->
+    <section class="envelope-screen" id="envelopeScreen">
+        <div class="envelope" id="envelopeBox" title="Nhấn để mở thiệp">
+            <div class="envelope-flap"></div>
+            <div class="envelope-info">
+                <p class="envelope-label">GRADUATION INVITATION</p>
+                <p class="envelope-subtext">Trân trọng kính mời</p>
+            </div>
+        </div>
+        <button class="open-btn" id="openBtn">CHẠM ĐỂ MỞ THIỆP ✨</button>
+    </section>
+
+    <!-- ==============================================
+         2. TẤM THIỆP CHÍNH
+         ============================================== -->
+    <article class="card-container" id="cardContainer">
+
+        <!-- Nút đóng thiệp -->
+        <button class="close-card-btn" id="closeBtn" title="Đóng thiệp">✕</button>
+
+        <!-- Nền hoa văn ren nổi (Hình số 2) -->
+        <img src="images/bg-card.png" alt="Nền hoa văn" class="card-bg" />
+        <div class="card-overlay"></div>
+
+        <!-- CÁC HỌA TIẾT TRANG TRÍ -->
+        <img src="images/flower-hibiscus.png" alt="Hoa dâm bụt" class="deco-item deco-hibiscus" />
+        <img src="images/butterfly.png" alt="Bướm hồng" class="deco-item deco-butterfly" />
+        <img src="images/rabbit.png" alt="Bé thỏ" class="deco-item deco-rabbit" />
+        <img src="images/rose.png" alt="Hoa hồng" class="deco-item deco-rose-bottom" />
+        <img src="images/peony.png" alt="Hoa mẫu đơn" class="deco-item deco-peony-bottom" />
+
+        <!-- NỘI DUNG VĂN BẢN TRÊN THIỆP -->
+        <div class="card-content">
+
+            <!-- Cụm đỉnh: Thiên thần & Mũ cử nhân -->
+            <div class="top-emblem-cluster">
+                <div class="angel-crown-box">
+                    <img src="images/flower-knows.png" alt="Vương miện thiên thần" />
+                </div>
+                <div class="grad-cap-box">
+                    <img src="images/grad-cap.png" alt="Nón cử nhân" />
+                </div>
+            </div>
+
+            <!-- Cụm tiêu đề -->
+            <div class="invitation-intro">PLEASE JOIN US FOR A</div>
+            <h1 class="invitation-main-title">GRADUATION<br>INVITATION</h1>
+
+            <!-- Khung ảnh cử nhân -->
+            <div class="photo-frame">
+                <img src="images/portrait.jpg" alt="Ảnh cử nhân" />
+                <div class="photo-pin"></div>
+            </div>
+
+            <!-- CỤM THÔNG TIN ĐỊA ĐIỂM & THỜI GIAN (DỒN GỌN GÀNG) -->
+            <div class="info-group">
+                <div class="location-label">Location</div>
+                <div class="location-name">Hoi Truong A - Nam Sai Gon</div>
+                <div class="date-row">19 | 09 | 2026</div>
+                <div class="time-row">09:00 - 11:00 AM</div>
+            </div>
+
+            <!-- CỤM LỜI MỜI & CHỮ KÝ (CÁCH ĐỀU, KHÔNG BỊ XA) -->
+            <div class="message-group">
+                <p class="message-body">
+                    Một hành trình khép lại để mở ra những cơ hội mới. Mình xin gửi lời mời trân trọng và chân thành nhất đến gia đình cùng toàn thể bạn bè đến tham dự buổi lễ tốt nghiệp
+                </p>
+                <p class="message-highlight">
+                    Rất mong được đón tiếp mọi người đến chung vui
+                    và lưu giữ những kỷ niệm đẹp trong ngày đặc biệt này.
+                </p>
+                <div class="signature-thankyou">Thank you!</div>
+            </div>
+
+        </div>
+    </article>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
